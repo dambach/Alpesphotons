@@ -1,23 +1,36 @@
 ---
-# A Demo section created with the Blank widget.
-# Any elements can be added in the body: https://wowchemy.com/docs/writing-markdown-latex/
-# Add more sections by duplicating this file and customizing to your requirements.
+widget: hero
+headless: true  # This file represents a page section.
 
-widget: hero # See https://wowchemy.com/docs/page-builder/
-headless: true # This file represents a page section.
-weight: 10 # Order that this section will appear.
-title: |
-  Wowchemy  
-  Research Group
-hero_media: welcome.jpg
+# Put Your Section Options Here (title, background, etc.) ...
+# title: Alpesphotons
+weight: 10 # Position of section on the page
+
+# Hero image (optional). Enter filename of an image in the assets/media/ folder.
+hero_media: 'mountain.jpg'
+
+# Call to action links (optional).
+#   Display link(s) by specifying a URL and label below. Icon is optional for `cta`.
+#   Remove a link/note by deleting a cta/note block.
+cta:
+  url: 'https://wowchemy.com'
+  label: Contactez nous
+  icon_pack: fas
+  icon: envelope
+# cta_alt:
+#   url: 'https://wowchemy.com'
+#   label: View Documentation
+
+# Note. An optional note to show underneath the links.
+cta_note:
+  label: ''
+
+# Choose an optional background color, gradient, image, or video
 design:
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns: '1'
-  # Add custom styles
-  css_style:
-  css_class:
+  background:
+    gradient_end: '#1976d2'
+    gradient_start: '#004ba0'
+    text_color_light: true
 ---
 
-<br>
-
-The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+Vous avez un projet d'installation photovoltaique ? 

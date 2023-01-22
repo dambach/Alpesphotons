@@ -7,7 +7,7 @@
 
 appearance:
   theme_day: minimal
-  theme_night:
+  theme_night: 
   font: native
   font_size: L
 
@@ -18,8 +18,8 @@ marketing:
     site_type: Organization
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    description: 'Installation de panneaux photovoltaiques'
+    twitter: 'Alpesphotons'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -43,11 +43,11 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} AlpesPhotons'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
-      share_alike: true
+      share_alike: false
       allow_commercial: false
 
 # Localization
@@ -69,10 +69,10 @@ features:
     enable: false
   privacy_pack:
     enable: false
-  repository:
-    url: 'https://github.com/<username>/<repository>'
-    content_dir: content
-    branch: main
+  # repository:
+  #   url: 'https://github.com/<username>/<repository>'
+  #   content_dir: content
+  #   branch: main
   avatar:
     gravatar: false
     shape: circle
