@@ -5,13 +5,13 @@
 
 main:
   - name: ACCUEIL
-    url: home
+    url: '#home'
     weight: 10
   - name: QUI SOMMES NOUS ?
-    url: post
+    url: people
     weight: 20
   - name: SERVICES
-    url: people
+    url: '#services'
     weight: 30
   # - name: Events
   #   url: event
