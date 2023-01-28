@@ -11,7 +11,7 @@ website:
     # tracking-id: "G-7G8FLLRS4M"
     # anonymize-ip: true
   open-graph: true
-  # site-url: https://quarto.org
+  site-url: https://genuine-axolotl-e4f6f6.netlify.app
   repo-url: https://github.com/dambach/Alpesphotons
   # cookie-consent:
   #   type: express
