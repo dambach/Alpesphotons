@@ -4,8 +4,8 @@ page-layout: custom
 section-divs: false
 css: index.css
 editor: source
-# title: <br> Instalation photovoltaique <br>
-# title-block-banner: img/mountain.jpg
+title: <br> ... <br>
+title-block-banner: img/solar.jpg
 # title-block-banner-color: "#2d2d2d"
 # subtitle: Concrétisez votre projet<br><br><br><br>
 ---
