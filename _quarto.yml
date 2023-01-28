@@ -1,0 +1,77 @@
+project:
+  type: website
+  preview:
+    port: 4200
+
+website:
+  title: "AlpesPhotons"
+  favicon: img/icon.png
+  twitter-card: true
+  # google-analytics: "G-FV9Z7SDZ0M"
+    # tracking-id: "G-7G8FLLRS4M"
+    # anonymize-ip: true
+  open-graph: true
+  # site-url: https://quarto.org
+  # repo-url: https://github.com/quarto-dev/quarto-web
+  # cookie-consent:
+  #   type: express
+  #   style: headline
+  #   palette: light
+  navbar:
+    title: false
+    style: "floating"
+    # foreground: "#e4c579"
+    # background: primary
+    logo: img/AP-1-blanc.png
+    logo-alt: "logo Alpesphotons."
+    # background: "#3c594f"
+    collapse-below: lg
+    left:
+      - href: index.qmd
+        text: "{{< fa house >}} ACCUEIL"
+      - href: qui.qmd
+        text: "{{< fa users >}} QUI SOMMES NOUS ?"
+      - href: services.qmd 
+        text: "{{< fa sun >}} SERVICES"
+      - href: contact.qmd
+        text: "{{< fa paper-plane >}} CONTACTEZ NOUS"
+      # - text: "FAQ"
+      #   menu:
+      #     - text: "Report a Bug"
+      #       icon: "bug"
+    right: 
+      - icon: linkedin
+        href: https://linkedin.com/Alpesphotons
+        aria-label: Alpesphotons linkedin
+        
+  page-footer:
+    background: "#3c594f"
+    left: "{{< fa copyright >}} 2023 AlpesPhotons"
+    center:
+      - text: "<img src='/img/logo_w.png' width='auto' height='25px'>"
+    right:
+      - text: "Nous contacter"
+        href: contact.html
+      - icon: linkedin
+        href: https://www.linkedin.com/in/benoit-bachasson-069371120/
+
+format:
+  html:
+    theme: [lux, theme.scss]
+    fontsize: 1.1em
+    css: styles.css
+    toc: true
+    smooth-scroll: true
+    # includes:
+    #   in_header: hero-image.html
+    #   include-after-body: js.html
+    link-external-newwindow: true
+
+freeze: true
+
+editor: source
+
+# body-header: | 
+#   This page brought to you by <https://example.com>
+# margin-header: |
+#   ![Logo image](/img/logo.png)

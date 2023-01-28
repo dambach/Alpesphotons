@@ -1,0 +1,66 @@
+---
+toc: false
+page-layout: custom
+section-divs: false
+css: index.css
+editor: source
+# title: <br> Instalation photovoltaique <br>
+# title-block-banner: img/mountain.jpg
+# title-block-banner-color: "#2d2d2d"
+#subtitle: Concrétisez votre projet<br><br><br><br>
+---
+
+```{=html}
+<!-- Bootstrap Static Header -->
+<div style="background: url(img/mountain.jpg)" class="jumbotron bg-cover text-white">
+    <div class="container py-5 text-center">
+        <h1 class="display-4 font-weight-bold" style="color:#ffffff ">Haec igitur Epicuri non probo, inquam</h1>
+        <p class="font-italic mb-0">De cetero vellem equidem aut ipse doctrinis fuisset instructior est enim.</p>
+        <!-- <p class="font-italic">Snippe by -->
+        <!--     <a href="https://bootstrapious.com" class="text-white"> -->
+        <!--         <u>Bootstrapious</u> -->
+        <!--     </a> -->
+        <!-- </p> -->
+        <!-- <a href="#" role="button" class="btn btn-primary px-5">See All Features</a> -->
+    </div>
+</div>
+```
+
+<!-- :::{.hero-banner} -->
+
+<!-- :::{.hero-image-left} -->
+<!-- ![](img/mountain.jpg) -->
+<!-- ::: -->
+
+::: content-block
+::: features
+::: feature
+### {{< fa solar-panel >}} Conception & installation photovoltaique
+
+Haec igitur Epicuri non probo, inquam. De cetero vellem equidem aut ipse doctrinis fuisset instructior est enim, quod tibi ita videri necesse est, non satis politus iis artibus, quas qui tenent.
+:::
+
+::: feature
+### {{< fa bolt >}} Produisez votre électricité
+
+Haec igitur Epicuri non probo, inquam. De cetero vellem equidem aut ipse doctrinis fuisset instructior est enim, quod tibi ita videri necesse est, non satis politus iis artibus, quas qui tenent.
+:::
+
+::: feature
+### {{< fa tree >}}  Faites des économies d'energie
+
+Haec igitur Epicuri non probo, inquam. De cetero vellem equidem aut ipse doctrinis fuisset instructior est enim, quod tibi ita videri necesse est, non satis politus iis artibus, quas qui tenent.
+:::
+:::
+:::
+:::
+
+::: {.get-started .alt-background}
+::: {.content-block}
+
+### AHaec igitur Epicuri non probo.
+
+[Nous contacter](contact.html){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button"}
+
+:::
+:::
