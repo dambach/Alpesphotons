@@ -10,28 +10,6 @@ editor: source
 # subtitle: Concrétisez votre projet<br><br><br><br>
 ---
 
-```{=html}
-<!-- Bootstrap Static Header -->
-<div style="background: url(img/mountain.jpg)" class="jumbotron bg-cover text-white">
-    <div class="container py-5 text-center">
-        <h1 class="display-4 font-weight-bold" style="color:#ffffff; font-weight: bold">Concretisez votre projet</h1>
-        <p class="font-italic mb-0">De cetero vellem equidem aut ipse doctrinis fuisset instructior est enim.</p>
-        <!-- <p class="font-italic">Snippe by -->
-        <!--     <a href="/contact.html" class="text-white"> -->
-        <!--         <u>Bootstrapious</u> -->
-        <!--     </a> -->
-        <!-- </p> -->
-        <a href="/contact.html" role="button" class="btn-action-primary; btn-action; btn; btn-success; btn-lg" >Contactez nous</a>
-    </div>
-</div>
-```
-
-<!-- :::{.hero-banner} -->
-
-<!-- :::{.hero-image-left} -->
-<!-- ![](img/mountain.jpg) -->
-<!-- ::: -->
-
 ::: content-block
 ::: features
 ::: feature

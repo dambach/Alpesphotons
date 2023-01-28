@@ -12,7 +12,7 @@ website:
     # anonymize-ip: true
   open-graph: true
   # site-url: https://quarto.org
-  # repo-url: https://github.com/quarto-dev/quarto-web
+  repo-url: https://github.com/dambach/Alpesphotons
   # cookie-consent:
   #   type: express
   #   style: headline
@@ -24,7 +24,6 @@ website:
     # background: primary
     logo: img/AP-1-blanc.png
     logo-alt: "logo Alpesphotons."
-    # background: "#3c594f"
     collapse-below: lg
     left:
       - href: index.qmd
@@ -67,11 +66,6 @@ format:
     #   include-after-body: js.html
     link-external-newwindow: true
 
-freeze: true
+# freeze: true
 
 editor: source
-
-# body-header: | 
-#   This page brought to you by <https://example.com>
-# margin-header: |
-#   ![Logo image](/img/logo.png)
